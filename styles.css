@@ -91,6 +91,10 @@ nav {
   background-color: rgba(95, 95, 95, 0.479);
 }
 
+div {
+  font-size: 30px;
+}
+
 .top-link {
   position: fixed;
   color: black;
