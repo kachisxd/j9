@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&family=Staatliches&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gruppo";
+  background-color: antiquewhite;
+}
+
+#main-header {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body {
+  background: linear-gradient(97deg, rgb(247, 239, 207), rgb(245, 245, 245));
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.education-logo {
+  width: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8vh;
+  font-family: "Staatliches";
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+nav {
+  position: sticky;
+  top: 250px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 20px;
+
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  font-size: 2vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: rgba(95, 95, 95, 0.479);
+}
+
+.top-link {
+  position: fixed;
+  color: black;
+  z-index: 2;
+}
+
+hr {
+  width: 75%;
+}
+
+li {
+  display: inline;
+}
+
+.black-bg {
+  background-color: black;
+}
+.white-txt {
+  color: white;
+}
+
+ul {
+  color: black;
+}
