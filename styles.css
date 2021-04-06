@@ -74,11 +74,12 @@ footer {
 
 nav {
   position: sticky;
-  top: 250px;
+  top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  height: 20px;
+  height: 5vh;
+  
 
   list-style-type: none;
   text-align: center;
