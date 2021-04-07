@@ -14,14 +14,14 @@ body {
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-color: #798777;
+  color: #f8ede3;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 body {
-  background: linear-gradient(97deg, rgb(247, 239, 207), rgb(245, 245, 245));
+  background: linear-gradient(0deg, #f8ede3, #a2b29f);
 }
 
 a:link {
@@ -74,12 +74,12 @@ footer {
 
 nav {
   position: sticky;
-  top: 0px;
+  top: 250px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  height: 5vh;
-  
+  padding-bottom: 5px;
+  height: 20px;
 
   list-style-type: none;
   text-align: center;
@@ -89,11 +89,21 @@ nav {
   font-size: 2vh;
   margin-left: 1%;
   margin-right: 1%;
-  background-color: rgba(95, 95, 95, 0.479);
+  background-color: #bdd2b6;
 }
 
-div {
-  font-size: 30px;
+hr {
+  background-color: #bdd2b6;
+  border-style: none;
+  height: 2px;
+}
+.img-main {
+  display: block;
+  padding-top: 0px;
+  border-radius: 50%;
+  background-color: transparent;
+  position: relative;
+  box-shadow: 20px 20px 60px #5f695e;
 }
 
 .top-link {
