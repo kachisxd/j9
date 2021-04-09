@@ -15,6 +15,7 @@ body {
 
 header {
   background-color: #798777;
+  background: radial-gradient(#9cb19a, #798777);
   color: #f8ede3;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -35,7 +36,7 @@ a:visited {
 a:hover {
   color: white;
   text-decoration: underline;
-  transform: scale(1.1);
+  transform: scale(1.4);
 }
 a:active {
   color: white;
@@ -99,8 +100,9 @@ hr {
 }
 .img-main {
   display: block;
+  width: 40%;
   padding-top: 0px;
-  border-radius: 50%;
+  border-radius: 20px;
   background-color: transparent;
   position: relative;
   box-shadow: 20px 20px 60px #5f695e;
@@ -129,4 +131,8 @@ li {
 
 ul {
   color: black;
+}
+
+img:hover {
+  opacity: 80%;
 }
