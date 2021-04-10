@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&family=Staatliches&display=swap");
 
+/**********Tag Selctors***********/
 html {
   scroll-behavior: smooth;
 }
@@ -7,10 +8,6 @@ html {
 body {
   font-family: "Gruppo";
   background-color: antiquewhite;
-}
-
-#main-header {
-  text-decoration: none;
 }
 
 header {
@@ -24,6 +21,11 @@ header {
 body {
   background: linear-gradient(0deg, #f8ede3, #a2b29f);
 }
+#main-header {
+  text-decoration: none;
+}
+
+/**********Pseudo-class Selctors***********/
 
 a:link {
   color: white;
@@ -135,4 +137,16 @@ ul {
 
 img:hover {
   opacity: 80%;
+}
+
+#resume {
+  text-align: center;
+  font-family: "Staatliches";
+  font-size: 100px;
+  font-weight: 100;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  background-color: #798777;
+  margin: auto;
+  width: 60%;
 }
